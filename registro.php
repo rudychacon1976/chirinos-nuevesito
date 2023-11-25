@@ -319,19 +319,9 @@
             </div>
             <div class="field">
               <div class="label">¿Cuántas cargas familiares tiene?</div>
-              <select id="cargas_familiares" class="cargas_familiares" name="cargas_familiares">
+              <input type= number id="cargas_familiares" class="cargas_familiares" name="cargas_familiares">
                 <option selected="true" disabled="disabled" value="0">Seleccione</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-              </select>
+               
             </div>
             <div class="field">
               <button type="submit" class="firstNext next">Siguiente</button>
