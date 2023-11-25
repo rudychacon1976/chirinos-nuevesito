@@ -1589,7 +1589,7 @@
             </div>
             <div class="field btns">
               <button class="prev-2 prev">Atrás</button>
-              <button class="next-2 next">Siguiente</button>
+              <button type="submit" class="next-2 next">Siguiente</button>
             </div>
           </div>
           <!--pag4-->
