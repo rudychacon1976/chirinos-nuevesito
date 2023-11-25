@@ -92,7 +92,7 @@
   $nombre_organizacion = $_POST["nombre_organizacion"];
   $carnet_psuv = $_POST["carnet_psuv"];
   $codigo_carnet_psuv = $_POST["codigo_carnet_psuv"];
-  $clap = $data["clap"];
+  $clap = $_POST["clap"];
   $cantidad_clap= isset($_POST["clap"]) && $_POST["clap"] === "si" ? $_POST["cantidad_clap"] : '';
   $bolsa_nutricion = $_POST["bolsa_nutricion"];
   $cantidad_bolsa_nutricion = isset($_POST["bolsa_nutricion"]) && $_POST["bolsa_nutricion"] === "si" ? $_POST["cantidad_bolsa_nutricion"] : '';
