@@ -330,6 +330,7 @@
           <div class="page">
             <div id="primeracargapage" style="display: none;">
               <div class="title">Primera Carga Familiar</div>
+              <form method="post">
               <div class="field">
                 <div class="label">Nombre(s)</div>
                 <input type="text" id="nombre_carga" name="nombre_carga" autofocus>
