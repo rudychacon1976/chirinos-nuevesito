@@ -330,7 +330,6 @@
           <div class="page">
             <div id="primeracargapage" style="display: none;">
               <div class="title">Primera Carga Familiar</div>
-              <form method="post">
               <div class="field">
                 <div class="label">Nombre(s)</div>
                 <input type="text" id="nombre_carga" name="nombre_carga" autofocus>
@@ -1047,15 +1046,15 @@
               <div class="title">Séptima Carga Familiar</div>
               <div class="field">
                 <div class="label">Nombre(s)</div>
-                <input type="text" id="nombrecarga7">
+                <input type="text" id="nombre_carga" name="nombre_carga" autofocus>
               </div>
               <div class="field">
                 <div class="label">Apellido(s)</div>
-                <input type="text" id="apellidocarga7">
+                <input type="text" id="apellido_carga" name="apellido_carga">
               </div>
               <div class="field">
                 <div class="label">Género</div>
-                <select id="generocarga7" name="genero">
+                <select id="genero_carga" name="genero_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="femenino">Femenino</option>
                   <option value="masculino">Masculino</option>
@@ -1063,15 +1062,15 @@
               </div>
               <div class="field">
                 <div class="label">Número de Cédula</div>
-                <input type="number" id="cedulacarga7">
+                <input type="number" id="cedula_carga"name="cedula_carga">
               </div>
               <div class="field">
                 <div class="label">Fecha de Nacimiento</div>
-                <input type="datetime-local" id="fechanaccarga7">
+                <input type="datetime-local" id="fecha_nacimiento_carga"name="fecha_nacimiento_carga">
               </div>
               <div class="field">
                 <div class="label">Discapacidad</div>
-                <select id="discapacitadocarga7">
+                <select id="discapacitado_carga"Name="discapacitado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1079,7 +1078,7 @@
               </div>
               <div class="field">
                 <div class="label">Incapacidad</div>
-                <select id="incapacitadocarga7">
+                <select id="incapacitado_carga"name="incapacitado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1087,7 +1086,7 @@
               </div>
               <div class="field">
                 <div class="label">Embarazo Temprano?</div>
-                <select id="embarazotempranocarga7">
+                <select id="embarazo_temprano_carga" name="embarazo_temprano_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1095,7 +1094,7 @@
               </div>
               <div class="field">
                 <div class="label">Parentesco</div>
-                <select id="parentescocarga7">
+                <select id="parentesco_carga"name="parentesco_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="hermana/o">Hermana/o</option>
                   <option value="hija/o">Hija/o</option>
@@ -1108,12 +1107,12 @@
               </div>
               <div class="field">
                 <div class="label">Grado de Instrucción</div>
-                <select id="instruccioncarga7">
+                <select id="instruccion_carga"name="instruccion_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="primaria">Primaria</option>
                   <option value="bachillerato">Bachillerato</option>
-                  <option value="tecnicomedio">Técnico Medio</option>
-                  <option value="tecnicosuperior">Técnico Superior</option>
+                  <option value="tecnico_medio">Técnico Medio</option>
+                  <option value="tecnico_superior">Técnico Superior</option>
                   <option value="pregrado">Pregrado</option>
                   <option value="maestria">Maestría</option>
                   <option value="postgrado">Postgrado</option>
@@ -1122,15 +1121,15 @@
               </div>
               <div class="field">
                 <div class="label">Profesión?</div>
-                <input type="text" id="profesioncarga7">
+                <input type="text" id="profesion_carga"name="profesion_carga">
               </div>
               <div class="field">
                 <div class="label">Ingreso Mensual</div>
-                <input type="number" id="ingresocarga7">
+                <input type="number" id="ingreso_carga"name="ingreso_carga">
               </div>
               <div class="field">
                 <div class="label">Inscrita/o en el CNE?</div>
-                <select id="cnecarga7">
+                <select id="cne_carga"name="cne_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1138,7 +1137,7 @@
               </div>
               <div class="field">
                 <div class="label">Pensionada/o?</div>
-                <select id="carga7pensionado">
+                <select id="pensionado_carga" name="pensionado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1146,19 +1145,19 @@
               </div>
               <div class="field">
                 <div class="label">Posee carnet de la Patria?</div>
-                <select id="carga7carnet">
+                  <select id="carnet_carga" name="carnet_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
                 </select>
               </div>
               <div class="field" id="showcargacarnetcod" style="display: none;">
-                <div class="label" name="codigo_carnet">Código del Carnet de la patria</div>
-                <input type="number" id="codigocarnetcarga7">
+                <div class="label" ">Código del Carnet de la patria</div>
+                <input type="number" id="codigo_carnet_carga" name="codigo_carnet_carga">
               </div>
               <div class="field" id="showcargacarnetser" style="display: none;">
-                <div class="label" name="serial_carnet_carga">Serial del Carnet de la patria </div>
-                <input type="number" id="serialcarnetcarga7">
+                <div class="label" >Serial del Carnet de la patria </div>
+                <input type="number" id="serial_carnet_carga" name="serial_carnet_carga">
               </div>
             </div>
 
@@ -1166,15 +1165,15 @@
               <div class="title">Octava Carga Familiar</div>
               <div class="field">
                 <div class="label">Nombre(s)</div>
-                <input type="text" id="nombrecarga8">
+                <input type="text" id="nombre_carga" name="nombre_carga" autofocus>
               </div>
               <div class="field">
                 <div class="label">Apellido(s)</div>
-                <input type="text" id="apellidocarga8">
+                <input type="text" id="apellido_carga" name="apellido_carga">
               </div>
               <div class="field">
                 <div class="label">Género</div>
-                <select id="generocarga8" name="genero">
+                <select id="genero_carga" name="genero_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="femenino">Femenino</option>
                   <option value="masculino">Masculino</option>
@@ -1182,15 +1181,15 @@
               </div>
               <div class="field">
                 <div class="label">Número de Cédula</div>
-                <input type="number" id="cedulacarga8">
+                <input type="number" id="cedula_carga"name="cedula_carga">
               </div>
               <div class="field">
                 <div class="label">Fecha de Nacimiento</div>
-                <input type="datetime-local" id="fechanaccarga8">
+                <input type="datetime-local" id="fecha_nacimiento_carga"name="fecha_nacimiento_carga">
               </div>
               <div class="field">
                 <div class="label">Discapacidad</div>
-                <select id="discapacitadocarga8">
+                <select id="discapacitado_carga"Name="discapacitado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1198,7 +1197,7 @@
               </div>
               <div class="field">
                 <div class="label">Incapacidad</div>
-                <select id="incapacitadocarga8">
+                <select id="incapacitado_carga"name="incapacitado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1206,7 +1205,7 @@
               </div>
               <div class="field">
                 <div class="label">Embarazo Temprano?</div>
-                <select id="embarazotempranocarga8">
+                <select id="embarazo_temprano_carga" name="embarazo_temprano_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1214,7 +1213,7 @@
               </div>
               <div class="field">
                 <div class="label">Parentesco</div>
-                <select id="parentescocarga8">
+                <select id="parentesco_carga"name="parentesco_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="hermana/o">Hermana/o</option>
                   <option value="hija/o">Hija/o</option>
@@ -1227,12 +1226,12 @@
               </div>
               <div class="field">
                 <div class="label">Grado de Instrucción</div>
-                <select id="instruccioncarga8">
+                <select id="instruccion_carga"name="instruccion_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="primaria">Primaria</option>
                   <option value="bachillerato">Bachillerato</option>
-                  <option value="tecnicomedio">Técnico Medio</option>
-                  <option value="tecnicosuperior">Técnico Superior</option>
+                  <option value="tecnico_medio">Técnico Medio</option>
+                  <option value="tecnico_superior">Técnico Superior</option>
                   <option value="pregrado">Pregrado</option>
                   <option value="maestria">Maestría</option>
                   <option value="postgrado">Postgrado</option>
@@ -1241,15 +1240,15 @@
               </div>
               <div class="field">
                 <div class="label">Profesión?</div>
-                <input type="text" id="profesioncarga8">
+                <input type="text" id="profesion_carga"name="profesion_carga">
               </div>
               <div class="field">
                 <div class="label">Ingreso Mensual</div>
-                <input type="number" id="ingresocarga8">
+                <input type="number" id="ingreso_carga"name="ingreso_carga">
               </div>
               <div class="field">
                 <div class="label">Inscrita/o en el CNE?</div>
-                <select id="cnecarga8">
+                <select id="cne_carga"name="cne_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1257,7 +1256,7 @@
               </div>
               <div class="field">
                 <div class="label">Pensionada/o?</div>
-                <select id="carga8pensionado">
+                <select id="pensionado_carga" name="pensionado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1265,19 +1264,19 @@
               </div>
               <div class="field">
                 <div class="label">Posee carnet de la Patria?</div>
-                <select id="carga8carnet">
+                  <select id="carnet_carga" name="carnet_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
                 </select>
               </div>
               <div class="field" id="showcargacarnetcod" style="display: none;">
-                <div class="label" name="codigo_carnet">Código del Carnet de la patria</div>
-                <input type="number" id="codigocarnetcarga8">
+                <div class="label" ">Código del Carnet de la patria</div>
+                <input type="number" id="codigo_carnet_carga" name="codigo_carnet_carga">
               </div>
               <div class="field" id="showcargacarnetser" style="display: none;">
-                <div class="label" name="serial_carnet_carga">Serial del Carnet de la patria </div>
-                <input type="number" id="serialcarnetcarga8">
+                <div class="label" >Serial del Carnet de la patria </div>
+                <input type="number" id="serial_carnet_carga" name="serial_carnet_carga">
               </div>
             </div>
 
@@ -1285,15 +1284,15 @@
               <div class="title">Novena Carga Familiar</div>
               <div class="field">
                 <div class="label">Nombre(s)</div>
-                <input type="text" id="nombrecarga9">
+                <input type="text" id="nombre_carga" name="nombre_carga" autofocus>
               </div>
               <div class="field">
                 <div class="label">Apellido(s)</div>
-                <input type="text" id="apellidocarga9">
+                <input type="text" id="apellido_carga" name="apellido_carga">
               </div>
               <div class="field">
                 <div class="label">Género</div>
-                <select id="generocarga9" name="genero">
+                <select id="genero_carga" name="genero_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="femenino">Femenino</option>
                   <option value="masculino">Masculino</option>
@@ -1301,15 +1300,15 @@
               </div>
               <div class="field">
                 <div class="label">Número de Cédula</div>
-                <input type="number" id="cedulacarga9">
+                <input type="number" id="cedula_carga"name="cedula_carga">
               </div>
               <div class="field">
                 <div class="label">Fecha de Nacimiento</div>
-                <input type="datetime-local" id="fechanaccarga9">
+                <input type="datetime-local" id="fecha_nacimiento_carga"name="fecha_nacimiento_carga">
               </div>
               <div class="field">
                 <div class="label">Discapacidad</div>
-                <select id="discapacitadocarga9">
+                <select id="discapacitado_carga"Name="discapacitado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1317,7 +1316,7 @@
               </div>
               <div class="field">
                 <div class="label">Incapacidad</div>
-                <select id="incapacitadocarga9">
+                <select id="incapacitado_carga"name="incapacitado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1325,7 +1324,7 @@
               </div>
               <div class="field">
                 <div class="label">Embarazo Temprano?</div>
-                <select id="embarazotempranocarga9">
+                <select id="embarazo_temprano_carga" name="embarazo_temprano_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1333,7 +1332,7 @@
               </div>
               <div class="field">
                 <div class="label">Parentesco</div>
-                <select id="parentescocarga9">
+                <select id="parentesco_carga"name="parentesco_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="hermana/o">Hermana/o</option>
                   <option value="hija/o">Hija/o</option>
@@ -1346,12 +1345,12 @@
               </div>
               <div class="field">
                 <div class="label">Grado de Instrucción</div>
-                <select id="instruccioncarga9">
+                <select id="instruccion_carga"name="instruccion_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="primaria">Primaria</option>
                   <option value="bachillerato">Bachillerato</option>
-                  <option value="tecnicomedio">Técnico Medio</option>
-                  <option value="tecnicosuperior">Técnico Superior</option>
+                  <option value="tecnico_medio">Técnico Medio</option>
+                  <option value="tecnico_superior">Técnico Superior</option>
                   <option value="pregrado">Pregrado</option>
                   <option value="maestria">Maestría</option>
                   <option value="postgrado">Postgrado</option>
@@ -1360,15 +1359,15 @@
               </div>
               <div class="field">
                 <div class="label">Profesión?</div>
-                <input type="text" id="profesioncarga9">
+                <input type="text" id="profesion_carga"name="profesion_carga">
               </div>
               <div class="field">
                 <div class="label">Ingreso Mensual</div>
-                <input type="number" id="ingresocarga9">
+                <input type="number" id="ingreso_carga"name="ingreso_carga">
               </div>
               <div class="field">
                 <div class="label">Inscrita/o en el CNE?</div>
-                <select id="cnecarga9">
+                <select id="cne_carga"name="cne_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1376,7 +1375,7 @@
               </div>
               <div class="field">
                 <div class="label">Pensionada/o?</div>
-                <select id="carga9pensionado">
+                <select id="pensionado_carga" name="pensionado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1384,19 +1383,19 @@
               </div>
               <div class="field">
                 <div class="label">Posee carnet de la Patria?</div>
-                <select id="carga9carnet">
+                  <select id="carnet_carga" name="carnet_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
                 </select>
               </div>
               <div class="field" id="showcargacarnetcod" style="display: none;">
-                <div class="label" name="codigo_carnet">Código del Carnet de la patria</div>
-                <input type="number" id="codigocarnetcarga9">
+                <div class="label" ">Código del Carnet de la patria</div>
+                <input type="number" id="codigo_carnet_carga" name="codigo_carnet_carga">
               </div>
               <div class="field" id="showcargacarnetser" style="display: none;">
-                <div class="label" name="serial_carnet_carga">Serial del Carnet de la patria </div>
-                <input type="number" id="serialcarnetcarga9">
+                <div class="label" >Serial del Carnet de la patria </div>
+                <input type="number" id="serial_carnet_carga" name="serial_carnet_carga">
               </div>
             </div>
 
@@ -1404,15 +1403,15 @@
               <div class="title">Décima Carga Familiar</div>
               <div class="field">
                 <div class="label">Nombre(s)</div>
-                <input type="text" id="nombrecarga10">
+                <input type="text" id="nombre_carga" name="nombre_carga" autofocus>
               </div>
               <div class="field">
                 <div class="label">Apellido(s)</div>
-                <input type="text" id="apellidocarga10">
+                <input type="text" id="apellido_carga" name="apellido_carga">
               </div>
               <div class="field">
                 <div class="label">Género</div>
-                <select id="generocarga10" name="genero">
+                <select id="genero_carga" name="genero_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="femenino">Femenino</option>
                   <option value="masculino">Masculino</option>
@@ -1420,15 +1419,15 @@
               </div>
               <div class="field">
                 <div class="label">Número de Cédula</div>
-                <input type="number" id="cedulacarga10">
+                <input type="number" id="cedula_carga"name="cedula_carga">
               </div>
               <div class="field">
                 <div class="label">Fecha de Nacimiento</div>
-                <input type="datetime-local" id="fechanaccarga10">
+                <input type="datetime-local" id="fecha_nacimiento_carga"name="fecha_nacimiento_carga">
               </div>
               <div class="field">
                 <div class="label">Discapacidad</div>
-                <select id="discapacitadocarga10">
+                <select id="discapacitado_carga"Name="discapacitado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1436,7 +1435,7 @@
               </div>
               <div class="field">
                 <div class="label">Incapacidad</div>
-                <select id="incapacitadocarga10">
+                <select id="incapacitado_carga"name="incapacitado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1444,7 +1443,7 @@
               </div>
               <div class="field">
                 <div class="label">Embarazo Temprano?</div>
-                <select id="embarazotempranocarga10">
+                <select id="embarazo_temprano_carga" name="embarazo_temprano_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1452,7 +1451,7 @@
               </div>
               <div class="field">
                 <div class="label">Parentesco</div>
-                <select id="parentescocarga10">
+                <select id="parentesco_carga"name="parentesco_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="hermana/o">Hermana/o</option>
                   <option value="hija/o">Hija/o</option>
@@ -1465,12 +1464,12 @@
               </div>
               <div class="field">
                 <div class="label">Grado de Instrucción</div>
-                <select id="instruccioncarga10">
+                <select id="instruccion_carga"name="instruccion_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="primaria">Primaria</option>
                   <option value="bachillerato">Bachillerato</option>
-                  <option value="tecnicomedio">Técnico Medio</option>
-                  <option value="tecnicosuperior">Técnico Superior</option>
+                  <option value="tecnico_medio">Técnico Medio</option>
+                  <option value="tecnico_superior">Técnico Superior</option>
                   <option value="pregrado">Pregrado</option>
                   <option value="maestria">Maestría</option>
                   <option value="postgrado">Postgrado</option>
@@ -1479,15 +1478,15 @@
               </div>
               <div class="field">
                 <div class="label">Profesión?</div>
-                <input type="text" id="profesioncarga10">
+                <input type="text" id="profesion_carga"name="profesion_carga">
               </div>
               <div class="field">
                 <div class="label">Ingreso Mensual</div>
-                <input type="number" id="ingresocarga10">
+                <input type="number" id="ingreso_carga"name="ingreso_carga">
               </div>
               <div class="field">
                 <div class="label">Inscrita/o en el CNE?</div>
-                <select id="cnecarga10">
+                <select id="cne_carga"name="cne_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1495,7 +1494,7 @@
               </div>
               <div class="field">
                 <div class="label">Pensionada/o?</div>
-                <select id="carga10pensionado">
+                <select id="pensionado_carga" name="pensionado_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
@@ -1503,19 +1502,19 @@
               </div>
               <div class="field">
                 <div class="label">Posee carnet de la Patria?</div>
-                <select id="carga10carnet">
+                  <select id="carnet_carga" name="carnet_carga">
                   <option selected="true" disabled="disabled">Seleccione</option>
                   <option value="si">Sí</option>
                   <option value="no">No</option>
                 </select>
               </div>
               <div class="field" id="showcargacarnetcod" style="display: none;">
-                <div class="label" name="codigo_carnet">Código del Carnet de la patria</div>
-                <input type="number" id="codigocarnetcarga10">
+                <div class="label" ">Código del Carnet de la patria</div>
+                <input type="number" id="codigo_carnet_carga" name="codigo_carnet_carga">
               </div>
               <div class="field" id="showcargacarnetser" style="display: none;">
-                <div class="label" name="serial_carnet_carga">Serial del Carnet de la patria </div>
-                <input type="number" id="serialcarnetcarga10">
+                <div class="label" >Serial del Carnet de la patria </div>
+                <input type="number" id="serial_carnet_carga" name="serial_carnet_carga">
               </div>
             </div>
 
