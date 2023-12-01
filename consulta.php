@@ -341,7 +341,7 @@ if ($result > 0) {
 
               <div class="field">
                 <div class="label">Número de Cédula</div>
-                <input type="number" id="cedula"  name="cedula" value="<?php echo $data['nombres']; ?>">
+                <input type="number" id="cedula"  name="cedula" value="<?php echo $data['cedula']; ?>">
               </div>
 
               <div class="field">
@@ -454,93 +454,93 @@ if ($result > 0) {
 
                 <div class="field">
                   <div class="label">Nombre(s)</div>
-                  <input type="text" id="nombre_carga" name="nombre_carga" value="<?php echo $nombre_carga; ?>">
+                  <input type="text" id="nombre_carga" name="nombre_carga" value="<?php echo $data['nombre_carga']; ?>">
                 </div>
 
                 <div class="field">
                   <div class="label">Apellido(s)</div>
-                  <input type="text" id="apellido_carga" name="apellido_carga" value="<?php echo $apellido_carga; ?>">
+                  <input type="text" id="apellido_carga" name="apellido_carga" value="<?php echo $data["apellido_carga"]; ?>">
                 </div>
 
                 <div class="field">
                   <div class="label">Género</div>
                   <select name="nombre_genero" id="nombre_genero">
-                      <?php echo $genero; ?>
+                      <?php echo $data['genero"]; ?>
                   </select>
                 </div>
 
                 <div class="field">
                   <div class="label">Número de Cédula</div>
-                  <input type="number" id="cedula_carga"name="cedula_carga" value="<?php echo $cedula_carga; ?>">
+                  <input type="number" id="cedula_carga"name="cedula_carga" value="<?php echo $data['cedula_carga"]; ?>">
                 </div>
 
                 <div class="field">
                   <div class="label">Fecha de Nacimiento</div>
-                  <input type="datetime-local" id="fecha_nacimiento_carga" name="fecha_nacimiento_carga" value="<?php echo $fecha_nacimiento_carga; ?>">
+                  <input type="datetime-local" id="fecha_nacimiento_carga" name="fecha_nacimiento_carga" value="<?php echo $data['fecha_nacimiento_carga"]; ?>">
                 </div>
 
                 <div class="field">
                   <div class="label">Discapacidad</div>
-                  <input type="text" id="discapacitado_carga" Name="discapacitado_carga" value="<?php echo $discapacitado_carga; ?>">
+                  <input type="text" id="discapacitado_carga" Name="discapacitado_carga" value="<?php echo $data['discapacitado_carga"]; ?>">
                 </div>
       <!-- agregar en variables-->
                 <div class="field">
                   <div class="label">Incapacidad</div>
-                  <input type="text" id="incapacitado_carga"name="incapacitado_carga" value="<?php echo $incapacitado_carga; ?>">
+                  <input type="text" id="incapacitado_carga"name="incapacitado_carga" value="<?php echo $data['incapacitado_carga"]; ?>">
                 </div>
 
                 <div class="field">
                   <div class="label">Embarazo Temprano?</div>
-                  <input type="text" id="embarazo_temprano_carga" name="embarazo_temprano_carga" value="<?php echo $embarazo_temprano_carga; ?>">
+                  <input type="text" id="embarazo_temprano_carga" name="embarazo_temprano_carga" value="<?php echo $data['embarazo_temprano_carga"]; ?>">
                 </div>
 
                 <div class="field">
                   <div class="label">Parentesco</div>
                   <select id="nombre" name="nombre">
-                      <?php echo $nombre_parentesco; ?>
+                      <?php echo $data['nombre_parentesco"]; ?>
                   </select>
                 </div>
 
                 <div class="field">
                   <div class="label">Grado de Instrucción</div>
                   <select id="grado"name="grado">
-                      <?php echo $grado; ?>
+                      <?php echo $data['grado']; ?>
                   </select>
                 </div>
 
                 <div class="field">
                   <div class="label">Profesión?</div>
-                  <input type="text" id="profesion_carga" value="<?php echo $profesion_carga; ?>">
+                  <input type="text" id="profesion_carga" value="<?php echo $data['profesion_carga']; ?>">
                 </div>
 
                 <div class="field">
                   <div class="label">Ingreso Mensual</div>
-                  <input type="number" id="ingreso_mensual_carga" name="ingreso_mensual_carga"  value="<?php echo $ingreso_mensual_carga; ?>">
+                  <input type="number" id="ingreso_mensual_carga" name="ingreso_mensual_carga"  value="<?php echo $data['ingreso_mensual_carga']; ?>">
                 </div>
 
                 <div class="field">
                   <div class="label">Inscrita/o en el CNE?</div>
-                  <input type="text" id="inscrito_cne" name="inscrito_cne" value="<?php echo $inscrito_cne; ?>">
+                  <input type="text" id="inscrito_cne" name="inscrito_cne" value="<?php echo $data['inscrito_cne']; ?>">
                 </div>
 
                 <div class="field">
                   <div class="label">Pensionada/o?</div>
-                  <input type="text" id="pensionado_carga" name="pensionado_carga" value="<?php echo $pensionado_carga; ?>">
+                  <input type="text" id="pensionado_carga" name="pensionado_carga" value="<?php echo $data['pensionado_carga']; ?>">
                 </div>
   <!--agregar  a variables-->
                 <div class="field">
                   <div class="label">Posee carnet de la Patria?</div>
-                  <input type="text" id="carga_carnet" name="carga_carnet" value="<?php echo $carga_carnet; ?>">
+                  <input type="text" id="carga_carnet" name="carga_carnet" value="<?php echo $data['carga_carnet']; ?>">
                 </div>
 
                 <div class="field" id="showcargacarnetcod" style="display: none;">
                   <div class="label">Código del Carnet de la patria</div>
-                  <input type="number" id="codigo_carnet_carga" name="codigo_carnet_carga" value="<?php echo $codigo_carnet_carga; ?>">
+                  <input type="number" id="codigo_carnet_carga" name="codigo_carnet_carga" value="<?php echo $data['codigo_carnet_carga']; ?>">
                 </div>
 
                 <div class="field" id="showcargacarnetser" style="display: none;">
                   <div class="label" >Serial del Carnet de la patria </div>
-                  <input type="number" id="serial_carnet_carga" name="serial_carnet_carga" value="<?php echo $serial_carnet_carga; ?>">
+                  <input type="number" id="serial_carnet_carga" name="serial_carnet_carga" value="<?php echo $data['serial_carnet_carga']; ?>">
                 </div>
               </div>
   <!--hasta aqui-->
