@@ -1626,40 +1626,40 @@ if ($result > 0) {
               <div class="title">Datos de la Vivienda</div>
               <div class="field">
                 <div class="label">Condiciones del Terreno</div>
-                <input type="text" id="condiciones_terreno" name="condiciones_terreno" value="<?php echo $condiciones_terreno; ?>">
+                <input type="text" id="condiciones_terreno" name="condiciones_terreno" value="<?php echo $data['condiciones_terreno']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Forma de Tenencia</div>
-                <input type="text" id="forma_tenencia" name="forma_tenencia" value="<?php echo $forma_tenencia; ?>">
+                <input type="text" id="forma_tenencia" name="forma_tenencia" value="<?php echo $data['forma_tenencia']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Tipo de Vivienda</div>
-                <input type="text" id="tipo_vivienda" name="tipo_vivienda" value="<?php echo $tipo_vivienda; ?>">
+                <input type="text" id="tipo_vivienda" name="tipo_vivienda" value="<?php echo $data['tipo_vivienda']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Cuántas habitaciones tiene?</div>
-                <input type="number" id="habitaciones" name="habitaciones" value="<?php echo $habitaciones; ?>">
+                <input type="number" id="habitaciones" name="habitaciones" value="<?php echo $data['habitaciones']; ?>">
               </div>
 
   <!--CAMBIAR CONDICIONES POR MATERIALES EN LA BD-->
               <div class="field">
                 <div class="label">Materiales de la Vivienda</div>
-                <select id="materiales_vivienda" name="materiales_vivienda" value="<?php echo $materiales_vivienda; ?>">
-                <?php echo $materiales_vivienda; ?>
+                <select id="materiales_vivienda" name="materiales_vivienda" value="<?php echo $data['materiales_vivienda']; ?>">
+                <?php echo $data['materiales_vivienda']; ?>
                 </select>
               </div>
 
               <div class="field">
                 <div class="label">Tienes mascotas?</div>
-                <input type="text" id="masc" name="tiene_mascotas" value="<?php echo $tiene_mascotas; ?>">
+                <input type="text" id="masc" name="tiene_mascotas" value="<?php echo $data['tiene_mascotas']; ?>">
               </div>
   <!-- CAMBIAR NOMBRE -->
               <div class="field" id="showmascotas" style="display: none;">
                 <div class="label">Tipo de Mascota(s)</div>
-                <input type="text" id="masc" name="tiene_mascotas" value="<?php echo $tiene_mascotas; ?>">
+                <input type="text" id="masc" name="tiene_mascotas" value="<?php echo $data['tiene_mascotas']; ?>">
               </div>
 
               <div class="field" id="showotrasmascotas" style="display: none;">
@@ -1669,7 +1669,7 @@ if ($result > 0) {
 
               <div class="field" style="height: 100px;">
                 <div class="label">Necesidades de la Vivienda</div>
-                <input type="text" id="necesidades_vivienda" name="necesidades_vivienda" value="<?php echo $numero_telefono; ?>"style="width: 100%;">
+                <input type="text" id="necesidades_vivienda" name="necesidades_vivienda" value="<?php echo $data['numero_telefono']; ?>"style="width: 100%;">
               </div>
 
               <div class="field btns">
@@ -1682,62 +1682,62 @@ if ($result > 0) {
               <div class="title">Existe alguno de estos padecimientos en su núcleo familiar?</div>
               <div class="field">
                 <div class="label">Cáncer</div>
-                <input type="text" id="cancer" name="cancer" value="<?php echo $pensionado; ?>">
+                <input type="text" id="cancer" name="cancer" value="<?php echo $data['pensionado']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">VIH</div>
-                <input type="text" id="vih" name="vih" value="<?php echo $vih; ?>">
+                <input type="text" id="vih" name="vih" value="<?php echo $data['vih']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Sida</div>
-                <input type="text" id="sida" name="Sida" value="<?php echo $sida; ?>">
+                <input type="text" id="sida" name="Sida" value="<?php echo $data['sida']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Diabetes</div>
-                <input type="text" id="diabetes" name="diabetes" value="<?php echo $diabetes; ?>">
+                <input type="text" id="diabetes" name="diabetes" value="<?php echo $data['diabetes']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Hepatitis</div>
-                <select id="hepatitis" name="hepatitis" value="<?php echo $hepatitis; ?>">
+                <select id="hepatitis" name="hepatitis" value="<?php echo $data['hepatitis']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Leucemia</div>
-                <input type="text" id="leucemia" name="leucemia" value="<?php echo $leucemia; ?>">
+                <input type="text" id="leucemia" name="leucemia" value="<?php echo $data['leucemia']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Epilepsia</div>
-                <input type="text" id="epilepsia" name="epilepsia" value="<?php echo $epilpepsia; ?>">
+                <input type="text" id="epilepsia" name="epilepsia" value="<?php echo $data['epilpepsia']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Asma</div>
-                <input type="text"  id="asma" name="asma" value="<?php echo $asma; ?>">
+                <input type="text"  id="asma" name="asma" value="<?php echo $data['asma']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Hipertensión</div>
-                <input type="text" id="hipertension" name="hipertension" value="<?php echo $hipertension; ?>">
+                <input type="text" id="hipertension" name="hipertension" value="<?php echo $data['hipertension']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Tuberculosis</div>
-                <input type="text"id="tuberculosis" name="tuberculosis" value="<?php echo $tuberculosis; ?>">
+                <input type="text"id="tuberculosis" name="tuberculosis" value="<?php echo $data['tuberculosis']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Corazón</div>
-                <input type="text" id="corazon" name="corazon" value="<?php echo $corazon; ?>">
+                <input type="text" id="corazon" name="corazon" value="<?php echo $data['corazon']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Otra</div>
-                <input type="text" id="otra_enfermedad" name="otra_enfermedad" value="<?php echo $otra_enfermedad; ?>">
+                <input type="text" id="otra_enfermedad" name="otra_enfermedad" value="<?php echo $data['otra_enfermedad']; ?>">
               </div>
 
               <div class="field btns">
@@ -1751,82 +1751,82 @@ if ($result > 0) {
               <div class="title">Su vivienda cuenta con...</div>
               <div class="field">
                 <div class="label">Aguas Blancas</div>
-                <input type="text" id="aguas_blancas" name="aguas_blancas" value="<?php echo $aguas_blancas; ?>">
+                <input type="text" id="aguas_blancas" name="aguas_blancas" value="<?php echo $data['aguas_blancas']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Aguas Servidas</div>
-                <input type="text" id="aguas_servidas" name="aguas_servidas" value="<?php echo $aguas_servidas; ?>">
+                <input type="text" id="aguas_servidas" name="aguas_servidas" value="<?php echo $data['aguas_servidas']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Tanque de Agua</div>
-                <input type="text" id="tanque_agua" name="tanque_agua" value="<?php echo $tanque_agua; ?>">
+                <input type="text" id="tanque_agua" name="tanque_agua" value="<?php echo $data['tanque_agua']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Medidor de Agua</div>
-                <select id="medidor_agua" name="medidor_agua" value="<?php echo $medidor_agua; ?>">
+                <select id="medidor_agua" name="medidor_agua" value="<?php echo $data['medidor_agua']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Electricidad</div>
-                <input type="text" id="electricidad" name="electricidad" value="<?php echo $electricidad; ?>">
+                <input type="text" id="electricidad" name="electricidad" value="<?php echo $data['electricidad']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Medidor de Electricidad</div>
-                <input type="text" id="medidor_electricidad" name="medidor_electricidad" value="<?php echo $medidor_electricidad; ?>">
+                <input type="text" id="medidor_electricidad" name="medidor_electricidad" value="<?php echo $data['medidor_electricidad']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Telefonía Fija</div>
-                <input type="text" id="telefonia_fija" name="telefonia_fija" value="<?php echo $telefonia_fija; ?>">
+                <input type="text" id="telefonia_fija" name="telefonia_fija" value="<?php echo $data['telefonia_fija']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Internet</div>
-                <input type="text" id="internet" name="internet" value="<?php echo $internet; ?>">
+                <input type="text" id="internet" name="internet" value="<?php echo $data['internet']; ?>">
               </div>
 
               <div class="field" id="showinternet" style="display: none;">
                 <div class="label">Con que proveedor?</div>
-                <input type="text" name="proveedor_internet" id="proveedor_internet" value="<?php echo $proveedor_internet; ?>">
+                <input type="text" name="proveedor_internet" id="proveedor_internet" value="<?php echo $data['proveedor_internet']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Cable</div>
-                <input type="text" id="cable" name="cable" value="<?php echo $cable; ?>">
+                <input type="text" id="cable" name="cable" value="<?php echo $data['cable']; ?>">
               </div>
 
               <div class="field" id="showcable" style="display: none;">
                 <div class="label">Con que proveedor?</div>
-                <input type="text" id="proveedor_cable" name="proveedor_cable" value="<?php echo $proveedor_cable; ?>">
+                <input type="text" id="proveedor_cable" name="proveedor_cable" value="<?php echo $data['proveedor_cable']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Aseo Urbano</div> 
-                <input type="text" id="aseo_urbano" name="aseo_urbano" value="<?php echo $aseo_urbano; ?>">
+                <input type="text" id="aseo_urbano" name="aseo_urbano" value="<?php echo $data['aseo_urbano']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Gas Directo</div>
-                <input type="text" id="gas_directo" name="gas_directo" value="<?php echo $gas_directo; ?>">
+                <input type="text" id="gas_directo" name="gas_directo" value="<?php echo $data['gas_directo']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Cilíndro</div>
-                <input type="text" id="cilindro" name="cilindro" value="<?php echo $cilindro; ?>">
+                <input type="text" id="cilindro" name="cilindro" value="<?php echo $data['cilindro']; ?>">
               </div>
               
               <div class="field" id="showcilindro" style="display: none;">
                 <div class="label">Tamaño del Cilíndro</div>
-                <input type="text" id="tamano_cilindro" name="tamano_cilindro" value="<?php echo $tamano_cilindro; ?>">
+                <input type="text" id="tamano_cilindro" name="tamano_cilindro" value="<?php echo $data['tamano_cilindro']; ?>">
               </div>
 
               <div class="field">
                 <div class="label">Alumbrado Público</div>
-                <input type="text" id="alumbrado" name="alumbrado" value="<?php echo $alumbrado; ?>">
+                <input type="text" id="alumbrado" name="alumbrado" value="<?php echo $data['alumbrado']; ?>">
               </div>
 
               <div class="field btns">
@@ -1840,26 +1840,26 @@ if ($result > 0) {
               <div class="title">Participación Social</div>
               <div class="field">
                 <div class="label">Participa en alguna organizacion comunitaria?</div>
-                <input type="text" name="participacion_comunitaria" id="participacion_comunitaria" value="<?php echo $participacion_comunitaria; ?>">
+                <input type="text" name="participacion_comunitaria" id="participacion_comunitaria" value="<?php echo $data['participacion_comunitaria']; ?>">
               </div>
               <div class="field">
                 <div class="label">Cual?</div>
-                <input type="text" id="organizacion_comunitaria" name="organizacion_comunitaria " value="<?php echo $organizacion_comunitaria; ?>">
+                <input type="text" id="organizacion_comunitaria" name="organizacion_comunitaria " value="<?php echo $data['organizacion_comunitaria']; ?>">
               </div>
               <div class="field">
                 <div class="label">Posee carnet del PSUV?</div>
-                <input type="text"name="carnet_psuv" id="carnet_psuv" value="<?php echo $carnet_psuv; ?>">
+                <input type="text"name="carnet_psuv" id="carnet_psuv" value="<?php echo $data['carnet_psuv']; ?>">
               </div>
               <div class="field">
                 <div class="label">Introduzca su número de carnet</div>
-                <input type="number" name="numero_carnet_psuv" id="numero_carnet_psuv" value="<?php echo $numero_carnet_psuv; ?>"> 
+                <input type="number" name="numero_carnet_psuv" id="numero_carnet_psuv" value="<?php echo $data['numero_carnet_psuv']; ?>"> 
               </div>
 
               <div class="title">Recibe alguno de estos beneficios?</div>
 
               <div class="field">
                 <div class="label">CLAP</div>
-                <input type="text" id="divclap" name="clap" value="<?php echo $clap; ?>">
+                <input type="text" id="divclap" name="clap" value="<?php echo $data['clap']; ?>">
               </div>
 
               <div class="field" id="showclap" style="display: none;">
